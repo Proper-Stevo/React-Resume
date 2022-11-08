@@ -37,6 +37,7 @@
     width: 100%;
     /* opacity: .5; */
 }
+
 .contentOne span.img-txt {
     background-color: rgba(108, 122, 137, .4);
     text-transform: uppercase;
@@ -70,6 +71,37 @@ h3 {
     color: white;
 }
 
+
+
+.contentProjects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 200vh;
+    width: 100%;
+    padding: 40px;
+    transition: all .1s;
+}
+
+
 .card-txt {
     color: black;
+}
+
+.uno {
+    color: black
+}
+
+
+.card-img {
+    height: 350px;
+}
+
+.pop-out-card:hover {
+    box-shadow: 2px 12px 15px rgb(255, 255, 255);
+}
+
+.pop-out-card.with-transform:hover {
+    transform: translateY(-2px);
 }

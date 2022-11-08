@@ -21,12 +21,12 @@ export default function Footer() {
                 <i className='fa-brands fa-linkedin custom-icon fa-xl'></i>
             </a>
             <a
-                href='https://twitter.com/proper-stevo/'
+                href='https://stackoverflow.com/users/20445879/stevob?tab=profile'
                 target='blank'
                 rel='noopener noreferrer'
                 className='p-3'
             >
-                <i className='fa-brands fa-square-twitter custom-icon fa-xl'></i>
+                <i className='fa-brands fa-stack-overflow custom-icon fa-xl'></i>
             </a>
             <a
                 href='mailto:steven.barrios92@gmail.com'
