@@ -105,3 +105,19 @@ h3 {
 .pop-out-card.with-transform:hover {
     transform: translateY(-2px);
 }
+
+.resume-box {
+    text-align: center;
+    padding: 3rem 1rem;
+    text-align: justify;
+    background-color: #333;
+    color: white;
+}
+
+.icon {
+    filter: grayscale(100%);
+}
+
+.icon:hover {
+    filter: none;
+}
