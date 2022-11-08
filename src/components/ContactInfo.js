@@ -3,7 +3,7 @@ import firecamp from '../img/backgroundThree 2.jpg'
 
 const ContactInfo = () => (
     <Parallax className='image3' bgImage={firecamp}  strength={800}>
-        <div className='content'>
+        <div className='content' id='contact'>
             <span className='img-txt'>Hello A Message Goes Here</span>
         </div>
     </Parallax>

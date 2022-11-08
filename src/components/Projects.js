@@ -57,7 +57,7 @@ const cardArray = [
 
 const Projects = () => (
     <Parallax className='image2' bgImage={mountain} strength={800}>
-        <div className='contentProjects'>
+        <div className='contentProjects' id='work'>
             <span className='img-txt'>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     {cardArray.map((item) => (

@@ -14,7 +14,7 @@ import sassIcon from '../img/icons8-sass-144.png';
 
 function Resume() {
   return (
-    <div className="resume-box row">
+    <div className="resume-box row" id="resume">
       <img className="col-2 col-md-1 icon" src={htmlIcon} />
       <img className="col-2 col-md-1 icon" src={cssIcon} />
       <img className="col-2 col-md-1 icon" src={expressIcon} />
