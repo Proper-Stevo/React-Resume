@@ -126,3 +126,21 @@ h3 {
 .card-text {
     font-family: sans-serif;
 }
+
+#selfie {
+    border-radius: 180px;
+}
+
+.about-me-icons {
+    padding: 8px;
+}
+
+.sectionAboutMe {
+    padding: 2px;
+    
+}
+
+.sectionAboutMe2{
+    padding: 2px;
+    
+}
