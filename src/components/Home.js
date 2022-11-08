@@ -8,6 +8,7 @@ const Home = () => (
         <div className='contentOne text-center'>
             <span className='img-txt'><h1>Welcome To Stevo's Page!</h1>
                 <hr /> A Los Angeles based Full Stack Developer. <br />
+                <br />
                 <a className='btn btn-secondary mx-4' href="https://sites.google.com/site/gdocs2direct/">
                     Resume    
                 </a>

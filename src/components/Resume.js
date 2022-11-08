@@ -1,14 +1,31 @@
 import React from "react";
+import htmlIcon from '../img/icons8-html-5-144.png';
+import cssIcon from '../img/icons8-css3-144.png'
 
 function Resume() {
   return (
     <div className="text-box">
-      <h3>Hello</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Soluta vitae numquam expedita, maxime nihil fugit ea reiciendis
-        voluptates quibusdam, asperiores, rerum consectetur dolore! Nostrum temporibus deleniti aspernatur
-        fugit quam quia.</p>
-        {/* https://stackoverflow.com/users/20445879/stevob */}
+      <div>
+        <img className="icon" src={htmlIcon}></img>
+        <img className="icon" src={cssIcon}></img>
+        <img></img>
+        <img></img>
+      </div>
+
+      <div>
+      <img></img>
+        <img></img>
+        <img></img>
+        <img></img>
+      </div>
+
+      <div>
+        <img></img>
+        <img></img>
+        <img></img>
+        <img></img>
+        </div>
+
     </div>
   );
 }
