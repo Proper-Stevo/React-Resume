@@ -1,32 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./pages/Nav";
-import Resume from "./pages/Resume";
-import Home from "./pages/Home";
 import Footer from "./pages/Footer";
 import '../src/styling/app.css'
+import ImageOne from "./components/ImageOne";
+import ImageTwo from "./components/ImageTwo";
+import ImageThree from "./components/ImageThree";
 
-export default function App() {
-    const [currentPage, setCurrentPage] = useState('Home');
-
-    const renderPage = () => {
-        if (currentPage === 'Home') {
-            return <Home />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-    };
-
-    const handlePage = (page) => setCurrentPage(page);
-
+function App() {
     return (
-        <div className="">
-            <Navbar currentPage={currentPage} handlePage={handlePage} />
+        <div>
+            <Navbar />
+            <ImageOne />
+            <ImageTwo />
+            <ImageThree />
 
-        <div className="body">
-            {renderPage()}
+            <div>
+                <Footer />
             </div>
-            <Footer />
         </div>
-    );
-}
+    )
+};
+
+export default App;

@@ -23,13 +23,23 @@
 }
 
 .nav {
-    --bs-nav-link-color: black !important;
+    --bs-nav-link-color: white !important;
 }
 
+.nav-link {
+    color: white;
+}
 
 .nav-link:hover {
     margin-left: 0px !important;
     transition-duration: 600ms !important;
-    transition: 0.8s;    
+    transition: 0.8s;
     transition-timing-function: ease-out !important;
+    color: white;
+}
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
