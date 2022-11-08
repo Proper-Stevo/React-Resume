@@ -3,7 +3,7 @@ import '../styling/Footer.css'
 
 export default function Footer() {
     return (
-        <div className='footer d-flex justify-content-center pt-2'>
+        <div className='footer d-flex justify-content-center py-4'>
             <a
                 href='https://github.com/Proper-Stevo'
                 target='blank'
