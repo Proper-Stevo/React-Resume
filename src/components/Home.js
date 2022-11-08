@@ -1,7 +1,9 @@
 import { Parallax } from 'react-parallax';
 import space from '../img/backgroundPort.jpg'
 
-const ImageOne = () => (
+
+
+const Home = () => (
     <Parallax className='image' bgImage={space} strength={800}>
         <div className='contentOne text-center'>
             <span className='img-txt'><h1>Welcome To Stevo's Page!</h1>
@@ -17,4 +19,5 @@ const ImageOne = () => (
     </Parallax>
 );
 
-export default ImageOne
+export default Home
+
