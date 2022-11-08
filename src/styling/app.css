@@ -1,3 +1,4 @@
+
 .body {
     flex: 1;
     height: 100vh;
@@ -120,4 +121,8 @@ h3 {
 
 .icon:hover {
     filter: none;
+}
+
+.card-text {
+    font-family: sans-serif;
 }

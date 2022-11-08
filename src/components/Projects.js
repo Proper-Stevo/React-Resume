@@ -64,12 +64,12 @@ const Projects = () => (
                         <Col>
                             <Card key={item.project} className='uno pop-out-card with-transform'>
                                 <Card.Img variant="top" src={item.imgSrc} className='card-img'/>
-                                <Card.Body>
+                                <Card.Body className='text-center'>
                                     <Card.Title>{item.project}</Card.Title>
                                     <Card.Text className='card-txt'>
-                                        <a class="btn fa-solid fa-earth-americas" href={item.url}>Demo </a>
-                                        <a class="btn fa-brands fa-github" href={item.gbUrl}>github </a>
-                                         
+                                        <a class="card-text btn fa-solid fa-earth-americas" href={item.url} > Demo</a>
+                                        <a class="card-text btn fa-brands fa-github" href={item.gbUrl}> github </a>
+                                         <br />
                                          {item.description}
                                     </Card.Text>
                                 </Card.Body>
