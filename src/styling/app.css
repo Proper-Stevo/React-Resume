@@ -137,10 +137,17 @@ h3 {
 
 .sectionAboutMe {
     padding: 2px;
+
     
 }
 
 .sectionAboutMe2{
     padding: 2px;
     
+}
+
+.contact-content {
+    color: white;
+    padding-top: 400px;
+    margin: 40px;
 }
