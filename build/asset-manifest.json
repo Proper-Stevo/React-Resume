@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Resume/static/css/main.519f8d9c.css",
+    "main.js": "/React-Resume/static/js/main.e9be3596.js",
+    "static/media/woods.jpg": "/React-Resume/static/media/woods.c89aaf3156c68f24899e.jpg",
+    "static/media/store.jpg": "/React-Resume/static/media/store.4bb2f6b4562602412f92.jpg",
+    "static/media/backgroundThree 2.jpg": "/React-Resume/static/media/backgroundThree 2.d573ae9f261fb1f84903.jpg",
+    "static/media/backgroundPort.jpg": "/React-Resume/static/media/backgroundPort.70ab9d1914f90f841b90.jpg",
+    "static/media/systembade.png": "/React-Resume/static/media/systembade.6ad9e688da55d48aa4c4.png",
+    "static/media/starwars.jpg": "/React-Resume/static/media/starwars.8256d31e5b9d9a701401.jpg",
+    "static/media/nationalPark.jpeg": "/React-Resume/static/media/nationalPark.9b5c4167a01d7b667fbd.jpeg",
+    "static/media/bank.jpeg": "/React-Resume/static/media/bank.5e33e9390b042584051c.jpeg",
+    "static/media/resume.jpg": "/React-Resume/static/media/resume.f596986ed794c903e309.jpg",
+    "static/media/selfie.jpeg": "/React-Resume/static/media/selfie.5ea4b9090482b0ffa7a1.jpeg",
+    "static/media/icons8-react-144.png": "/React-Resume/static/media/icons8-react-144.0258a39c0da07bd24e39.png",
+    "static/media/jquery.png": "/React-Resume/static/media/jquery.0ce0480ce3ffc079b4c1.png",
+    "static/media/icons8-my-sql-144.png": "/React-Resume/static/media/icons8-my-sql-144.503cfdd887631c88e6bc.png",
+    "index.html": "/React-Resume/index.html",
+    "main.519f8d9c.css.map": "/React-Resume/static/css/main.519f8d9c.css.map",
+    "main.e9be3596.js.map": "/React-Resume/static/js/main.e9be3596.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.519f8d9c.css",
+    "static/js/main.e9be3596.js"
+  ]
+}
