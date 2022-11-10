@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form'
 const ContactInfo = () => (
     <Parallax className='image3' bgImage={firecamp} strength={800}>
         <div className="contact-content" id="contact">
-            <div className='contact-display'>Contanct Me <img src={env}></img></div>
+            <div className='contact-display'>Contact Me <img src={env}></img></div>
         <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>

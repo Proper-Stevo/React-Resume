@@ -83,14 +83,6 @@ h3 {
 }
 
 
-.pop-out-card:hover {
-    box-shadow: 2px 12px 15px rgb(255, 255, 255);
-}
-
-.pop-out-card.with-transform:hover {
-    transform: translateY(-2px);
-}
-
 .resume-box {
     text-align: center;
     padding: 3rem 1rem;
@@ -115,6 +107,11 @@ h3 {
     border-radius: 180px;
     max-width: 330px;
     max-height: 330px;
+}
+
+.accordion {
+    --bs-accordion-bg: rgba(173, 200, 229, 0.4) !important;
+    --bs-accordion-color: white !important;
 }
 
 .about-me-icons {
@@ -162,7 +159,7 @@ figure.snip1256 {
     color: #fff;
     position: relative;
     overflow: hidden;
-    margin: 20px; 
+    margin: 70px; 
     width: 320px;
     width: 310px;
     height: 320px; 
@@ -245,3 +242,51 @@ figure.snip1256 {
   
 
   @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+  .arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 20px;
+  }
+  
+  .arrows path {
+    stroke: #ffffff;
+    fill: transparent;
+    stroke-width: 1px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+  }
+  
+  @keyframes arrow
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  @-webkit-keyframes arrow /*Safari and Chrome*/
+  {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+  }
+  
+  .arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+  }
+  
+  .arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+  }

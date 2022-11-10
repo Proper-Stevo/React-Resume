@@ -10,7 +10,7 @@ export default function Footer() {
                 rel='noopener noreferrer'
                 className='p-3'
             >
-                <i className='fa-brands fa-github custom-icon fa-xl'></i>
+                <i className='fa-brands fa-github custom-icon fa-2xl'></i>
             </a>
             <a
                 href='https://linkedin.com/in/stevenb1992/'
@@ -18,7 +18,7 @@ export default function Footer() {
                 rel='noopener noreferrer'
                 className='p-3'
             >
-                <i className='fa-brands fa-linkedin custom-icon fa-xl'></i>
+                <i className='fa-brands fa-linkedin custom-icon fa-2xl'></i>
             </a>
             <a
                 href='https://stackoverflow.com/users/20445879/stevob?tab=profile'
@@ -26,7 +26,7 @@ export default function Footer() {
                 rel='noopener noreferrer'
                 className='p-3'
             >
-                <i className='fa-brands fa-stack-overflow custom-icon fa-xl'></i>
+                <i className='fa-brands fa-stack-overflow custom-icon fa-2xl'></i>
             </a>
             <a
                 href='mailto:steven.barrios92@gmail.com'
