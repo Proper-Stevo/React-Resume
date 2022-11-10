@@ -15,20 +15,20 @@ import sassIcon from '../img/icons8-sass-144.png';
 function Resume() {
   return (
     <div className="resume-box row" id="resume">
-      <img className="col-2 col-md-1 icon" src={htmlIcon} />
-      <img className="col-2 col-md-1 icon" src={cssIcon} />
-      <img className="col-2 col-md-1 icon" src={expressIcon} />
-      <img className="col-2 col-md-1 icon" src={gitHubIcon} />
+      <img className="col-2 col-md-1 icon" src={htmlIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={cssIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={expressIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={gitHubIcon} alt="badge"/>
 
-      <img className="col-2 col-md-1 icon" src={jqueryIcon} />
-      <img className="col-2 col-md-1 icon" src={javaScriptIcon} />
-      <img className="col-2 col-md-1 icon" src={mongoDBIcon} />
-      <img className="col-2 col-md-1 icon" src={mySQLIcon} />
+      <img className="col-2 col-md-1 icon" src={jqueryIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={javaScriptIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={mongoDBIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={mySQLIcon} alt="badge"/>
 
-      <img className="col-2 col-md-1 icon" src={nodeIcon} />
-      <img className="col-2 col-md-1 icon" src={reactIcon} />
-      <img className="col-2 col-md-1 icon" src={reduxIcon} />
-      <img className="col-2 col-md-1 icon" src={sassIcon} />
+      <img className="col-2 col-md-1 icon" src={nodeIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={reactIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={reduxIcon} alt="badge"/>
+      <img className="col-2 col-md-1 icon" src={sassIcon} alt="badge"/>
     </div>
   );
 }

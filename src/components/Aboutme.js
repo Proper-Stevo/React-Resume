@@ -7,14 +7,18 @@ function About() {
     <div className="text-box">
       <h3>About Steven Barrios</h3>
       <div className="row">
-        <img src={myphoto} className="col-12 col-md-3" id="selfie" />
+        <img src={myphoto} className="col-12 col-md-3" id="selfie" alt="selfie"/>
         <Accordion defaultActiveKey="0" className=" col-12 col-md-9">
           <Accordion.Item eventKey="0">
             <Accordion.Header >Education</Accordion.Header>
             <Accordion.Body>
              UCLA Extension: Full Stack Developer Program. 
-              Fluent in numerous languages and frameworks including ("but not limited to"): HTML, Node.Js, CSS, JavaScript, 
-              React, and many more. Passionate, motivated and well-versed developer available and open for inquieries. 
+              Fluent in numerous languages and frameworks including (but not limited to): HTML, Node.Js, CSS, JavaScript, 
+              React, and many more. Passionate, motivated and well-versed developer available and open for inquiries.
+              <br />
+               You can also download my Resume using this button. 
+               < br />
+               <a href="https://drive.google.com/uc?export=download&id=1Q2JbDm3OnQpgg0HQWasKDq5ZXni5mDfA" className="btn btn-primary btn-sm">Download</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -46,7 +50,7 @@ function About() {
             <Accordion.Header>My Goals</Accordion.Header>
             <Accordion.Body>
               As an aspiring new developer I want to accomplish many things in life. I want a great career with a company that cares about its 
-              employees and has good values. I want to help push the developer world into new heigts, improve my skills constantly, network as
+              employees and has good values. I want to help push the developer world into new heights, improve my skills constantly, network as
               much as I can and help out in my community as much as possible. 
             </Accordion.Body>
           </Accordion.Item>

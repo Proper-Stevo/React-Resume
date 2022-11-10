@@ -11,7 +11,9 @@ import Store from '../img/store.jpg'
 const Projects = () => (
     <Parallax className='image2' bgImage={mountain} strength={800}>
         <div className='contentProjects' id='work'>
+      
             <span className='img-txt row'>
+            <p className='text-center text-light project-title'>Projects</p>
                 <figure class="snip1256">
                     <img src={Space} alt="solar system" />
                     <figcaption>

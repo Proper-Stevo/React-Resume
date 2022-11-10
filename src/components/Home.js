@@ -9,7 +9,7 @@ const Home = () => (
             <span className='img-txt'><h1>Welcome To Stevo's Page!</h1>
                 <hr /> A Los Angeles based Full Stack Developer. <br />
                 <br />
-                <a className='btn btn-secondary mx-4' href="https://sites.google.com/site/gdocs2direct/">
+                <a className='btn btn-secondary mx-4' href="https://drive.google.com/uc?export=download&id=1Q2JbDm3OnQpgg0HQWasKDq5ZXni5mDfA">
                     Resume    
                 </a>
                 <a className='btn btn-secondary mx-4' href="#contact">
