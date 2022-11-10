@@ -185,6 +185,7 @@ figure.snip1256 img {
   -webkit-transform-origin: 50% 100%;
   -ms-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
+  height: 300px;
 }
 
 figure.snip1256 figcaption {
@@ -346,30 +347,18 @@ figure.snip1256.hover figcaption {
   font-size: 50px;
 }
 
-@media (max-width:320px) {
-  /* smartphones, iPhone, portrait 480x320 phones */
-  .contentProjects {
-    margin-top: 100px;
+@media only screen and (min-width:200px) and (max-width:767px){
+  .snip1256{
+    width: auto;
+    height: auto;
+    padding: auto;
+    flex-direction: column;
   }
-}
-
-@media (max-width:481px) {
-  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
-}
-
-@media (max-width:641px) {
-  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
-}
-
-@media (max-width:961px) {
-  
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
-
-@media (max-width:1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
-
-@media (max-width:1281px) {
-  /* hi-res laptops and desktops */
+  .contentProjects{
+    margin: auto;
+    padding: auto;
+  }
+  .text-box {
+    width: auto;
+  }
 }

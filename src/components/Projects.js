@@ -15,7 +15,7 @@ const Projects = () => (
             <span className='img-txt row'>
             <p className='text-center text-light project-title'>Projects</p>
                 <figure class="snip1256">
-                    <img src={Space} alt="solar system" />
+                    <img src={Space} alt="solar system" id='card-img'/>
                     <figcaption>
                         <h3>Space Odyssey</h3>
                         <p>A 3D based Solar System, full stack project that includes information on the planets when you select one. </p>
@@ -24,7 +24,7 @@ const Projects = () => (
                     </figcaption>
                 </figure>
                 <figure class="snip1256">
-                    <img src={Resume} alt="resume" />
+                    <img src={Resume} alt="resume" id='card-img'/>
                     <figcaption>
                         <h3>Resume Creator</h3>
                         <p>A React Resume Creator, a simple method to create a resume by answering some questions, fun and interactive. Choose from 4 templates.</p>
@@ -33,7 +33,7 @@ const Projects = () => (
                     </figcaption>
                 </figure>
                 <figure class="snip1256">
-                    <img src={Pines} alt="National Park Badge" />
+                    <img src={Pines} alt="National Park Badge" id='card-img'/>
                     <figcaption>
                         <h3>Ponderosa Pines</h3>
                         <p>A Simple National Park Finder that gives information once you enter a park, give it a try!</p>
@@ -43,7 +43,7 @@ const Projects = () => (
                 </figure>
                     <br />
                 <figure class="snip1256">
-                    <img src={Bank} alt="Mobile Bank App" />
+                    <img src={Bank} alt="Mobile Bank App" id='card-img'/>
                     <figcaption>
                         <h3>Bank Mobile Responsive</h3>
                         <p>This is a Front-End Mentor Project that showcases great mobile responsive page.</p>
@@ -52,7 +52,7 @@ const Projects = () => (
                     </figcaption>
                 </figure>
                 <figure class="snip1256">
-                    <img src={Store} alt="store" />
+                    <img src={Store} alt="store" id='card-img'/>
                     <figcaption>
                         <h3>Redux Store</h3>
                         <p>A Redux Store brand that was used to demonstrate the ability to use count and create store.</p>
@@ -61,7 +61,7 @@ const Projects = () => (
                     </figcaption>
                 </figure>
                 <figure class="snip1256">
-                    <img src={Starwars} alt="Darth Vader" />
+                    <img src={Starwars} alt="Darth Vader" id='card-img'/>
                     <figcaption>
                         <h3>Star Wars API</h3>
                         <p>A Star Wars API that gives information on planets, characters, ships and more!</p>
