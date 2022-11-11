@@ -348,17 +348,10 @@ figure.snip1256.hover figcaption {
 }
 
 @media only screen and (min-width:200px) and (max-width:767px){
-  .snip1256{
-    width: auto;
-    height: auto;
-    padding: auto;
-    flex-direction: column;
-  }
-  .contentProjects{
-    margin: auto;
-    padding: auto;
-  }
-  .text-box {
-    width: auto;
+  .image2{
+    height: 360vh;
+    padding-top: 650px;
+    background-attachment: fixed;
+    background-size: cover;
   }
 }
