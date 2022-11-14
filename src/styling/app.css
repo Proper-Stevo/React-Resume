@@ -347,11 +347,10 @@ figure.snip1256.hover figcaption {
   font-size: 50px;
 }
 
-@media only screen and (min-width:200px) and (max-width:767px){
-  .image2{
+@media only screen and (min-width:200px) and (max-width:767px) {
+  .image2 {
     height: 360vh;
     padding-top: 650px;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: cover !important;
   }
 }
