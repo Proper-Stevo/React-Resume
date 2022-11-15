@@ -1,6 +1,6 @@
 import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
-import myphoto from '../img/selfie.jpeg'
+import myphoto from '../img/selfie.jpeg';
 
 function About() {
   return (

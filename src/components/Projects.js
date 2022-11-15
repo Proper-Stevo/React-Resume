@@ -5,7 +5,7 @@ import Space from '../img/spaceSS.png';
 import Resume from '../img/resumeSS.png';
 import Pines from '../img/NPFSS.png';
 import Bank from '../img/bankSS.png';
-import Store from '../img/reduxSS.png'
+import Store from '../img/reduxSS.png';
 
 
 const Projects = () => (

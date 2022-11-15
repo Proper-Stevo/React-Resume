@@ -1,5 +1,5 @@
 import { Parallax } from 'react-parallax';
-import space from '../img/backgroundPort.jpg'
+import space from '../img/backgroundPort.jpg';
 
 
 

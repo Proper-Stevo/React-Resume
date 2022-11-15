@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./pages/Nav";
 import Footer from "./pages/Footer";
-import '../src/styling/app.css'
+import '../src/styling/app.css';
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import ContactInfo from "./components/ContactInfo";
