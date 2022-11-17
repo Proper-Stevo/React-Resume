@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./pages/Nav";
 import Footer from "./pages/Footer";
 import '../src/styling/app.css';
@@ -17,7 +17,6 @@ function App() {
             <Projects />
             <Resume />
             <ContactInfo />
-
             <div>
                 <Footer />
             </div>
