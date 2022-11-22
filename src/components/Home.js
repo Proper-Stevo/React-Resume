@@ -1,10 +1,18 @@
 import { Parallax } from 'react-parallax';
 import space from '../img/backgroundPort.jpg';
+import Nav from 'react-bootstrap/Nav';
+import '../styling/Nav.css';
 
 
 
 const Home = () => (
     <Parallax className='image' bgImage={space} strength={800}>
+         <Nav defaultActiveKey="/home" className="flex-column side-nav"  id="navBar">
+            <Nav.Link href="#home" id="navHome">Home <i class="fa-solid fa-house-chimney fa-2xl"></i></Nav.Link>
+            <Nav.Link href="#work" id="navProjects">Projects <i class="fa-solid fa-code-branch fa-2xl"></i></Nav.Link>
+            <Nav.Link href="#resume" id="navResume">Resume <i class="fa-regular fa-file-lines fa-2xl"></i></Nav.Link>
+            <Nav.Link href="#contact" id="navContact">Contact Me <i class="fa-solid fa-paper-plane fa-2xl"></i></Nav.Link>
+        </Nav>
         <div className='contentOne text-center' id='home'>
             <span className='img-txt'><h1>Welcome To Stevo's Page!</h1>
                 <hr /> A Los Angeles based Full Stack Developer. <br />
