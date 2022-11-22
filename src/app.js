@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import Navbar from "./pages/Nav";
-import Footer from "./pages/Footer";
+import React from "react";
+import Navbar from "./components/Nav";
+import Footer from "./components/Footer";
 import '../src/styling/app.css';
 import Home from "./components/Home";
 import Projects from "./components/Projects";
