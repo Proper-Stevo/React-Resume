@@ -354,3 +354,49 @@ figure.snip1256.hover figcaption {
     background-image: cover !important;
   }
 }
+/*  NAV BAR SECTION*/
+#navHome {
+  margin-left: -60px;
+}
+
+#navProjects {
+  margin-left: -75px;
+}
+
+#navResume {
+  margin-left: -74px;
+}
+
+#navContact {
+  margin-left: -100px;
+}
+
+#navHome:hover,
+#navProjects:hover,
+#navResume:hover,
+#navContact:hover {
+  margin-left: 0px;
+
+}
+
+.nav {
+  --bs-nav-link-color: white !important;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  margin-left: 0px !important;
+  transition-duration: 600ms !important;
+  transition: 0.8s;
+  transition-timing-function: ease-out !important;
+  color: white;
+}
+
+.side-nav {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}

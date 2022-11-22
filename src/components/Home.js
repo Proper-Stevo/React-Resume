@@ -1,7 +1,6 @@
 import { Parallax } from 'react-parallax';
 import space from '../img/backgroundPort.jpg';
 import Nav from 'react-bootstrap/Nav';
-import '../styling/Nav.css';
 
 
 

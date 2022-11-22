@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Resume/static/css/main.b5b59198.css",
-    "main.js": "/React-Resume/static/js/main.994051d4.js",
+    "main.css": "/React-Resume/static/css/main.0188a64e.css",
+    "main.js": "/React-Resume/static/js/main.3778cbbe.js",
     "static/media/woods.jpg": "/React-Resume/static/media/woods.c89aaf3156c68f24899e.jpg",
     "static/media/backgroundThree 2.jpg": "/React-Resume/static/media/backgroundThree 2.d573ae9f261fb1f84903.jpg",
     "static/media/NPFSS.png": "/React-Resume/static/media/NPFSS.1daac3971bcd57ab1158.png",
@@ -16,11 +16,11 @@
     "static/media/jquery.png": "/React-Resume/static/media/jquery.0ce0480ce3ffc079b4c1.png",
     "static/media/icons8-my-sql-144.png": "/React-Resume/static/media/icons8-my-sql-144.503cfdd887631c88e6bc.png",
     "index.html": "/React-Resume/index.html",
-    "main.b5b59198.css.map": "/React-Resume/static/css/main.b5b59198.css.map",
-    "main.994051d4.js.map": "/React-Resume/static/js/main.994051d4.js.map"
+    "main.0188a64e.css.map": "/React-Resume/static/css/main.0188a64e.css.map",
+    "main.3778cbbe.js.map": "/React-Resume/static/js/main.3778cbbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5b59198.css",
-    "static/js/main.994051d4.js"
+    "static/css/main.0188a64e.css",
+    "static/js/main.3778cbbe.js"
   ]
 }
