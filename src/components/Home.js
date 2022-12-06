@@ -13,7 +13,7 @@ const Home = () => (
             <Nav.Link href="#contact" id="navContact">Contact Me <i class="fa-solid fa-paper-plane fa-2xl"></i></Nav.Link>
         </Nav>
         <div className='contentOne text-center' id='home'>
-            <span className='img-txt'><h1>Welcome To Stevo's Page!</h1>
+            <span className='img-txt'><h1>Welcome To Steven's Page!</h1>
                 <hr /> A Los Angeles based Full Stack Developer. <br />
                 <br />
                 <a className='btn btn-secondary mx-4' href="https://drive.google.com/uc?export=download&id=1Q2JbDm3OnQpgg0HQWasKDq5ZXni5mDfA">

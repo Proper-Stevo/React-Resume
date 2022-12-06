@@ -9,7 +9,7 @@ import About from "./components/Aboutme";
 
 function App() {
     return (
-        <div>
+        <div className="entireBody">
             <Home />
             <About />
             <Projects />

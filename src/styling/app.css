@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+.entireBody {
+  background-color: black;
+}
+
 /* The first 3 "IMAGE" are the backgrounds */
 .image {
   position: relative;
@@ -351,7 +355,8 @@ figure.snip1256.hover figcaption {
   .image2 {
     height: 360vh;
     padding-top: 650px;
-    background-image: cover !important;
+    background-image: url('../img/woodMobile.jpg');
+    background-size: 200vh;
   }
 }
 /*  NAV BAR SECTION*/
