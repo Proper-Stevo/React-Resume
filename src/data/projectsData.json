@@ -1,0 +1,40 @@
+{
+    "projectsInfo": [
+        {
+            "title": "Orbital Odyssey",
+            "github": "https://github.com/Proper-Stevo/SpaceInvaders",
+            "demo": "https://stormy-sands-64982.herokuapp.com/",
+            "description": "A 3D based Solar System, full stack project that includes information on the planets when you select one."
+        },
+        {
+            "title": "Resume Creator",
+            "github": "https://github.com/cindyung56/resume-creator",
+            "demo": "https://fierce-ravine-29010.herokuapp.com/",
+            "description": "A React Resume Creator, a simple method to create a resume by answering some questions, fun and interactive. Choose from 4 templates."
+        },
+        {
+            "title": "Ponderosa Pines",
+            "github": "https://github.com/Proper-Stevo/ThePonderosaPines",
+            "demo": "https://proper-stevo.github.io/ThePonderosaPines/",
+            "description": "A Simple National Park Finder that gives information once you enter a park, give it a try!"
+        },
+        {
+            "title": "Easy Bank",
+            "github": "https://github.com/Proper-Stevo/EasyBank",
+            "demo": "https://easybankdemosb.netlify.app",
+            "description": "This is a Front-End Mentor Project that showcases great mobile responsive page."
+        },
+        {
+            "title": "Redux Store",
+            "github": "https://github.com/Proper-Stevo/Store-Redux",
+            "demo": "https://floating-reef-85992.herokuapp.com/",
+            "description": "A Redux Store brand that was used to demonstrate the ability to use count and create store."
+        },
+        {
+            "title": "Star Wars API",
+            "github": "https://github.com/Proper-Stevo/Star-Wars-API",
+            "demo": "https://sb-starwarsapi.netlify.app",
+            "description": "A Star Wars API that gives information on planets, characters, ships and more!"
+        }
+    ]
+}

@@ -6,72 +6,84 @@ import Resume from '../img/resumeSS.png';
 import Pines from '../img/NPFSS.png';
 import Bank from '../img/bankSS.png';
 import Store from '../img/reduxSS.png';
+import '../styling/project.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import projectsData from '../data/projectsData.json';
+import Card from 'react-bootstrap/Card';
+import urlBadge from '../img/urlBadge.png';
+import gbBadge from '../img/gbBadge.png';
 
 
-const Projects = () => (
-    <Parallax className='image2' bgImage={mountain} strength={800}>
-        <div className='contentProjects' id='work'>
-      
-            <span className='img-txt row'>
-            <p className='text-center text-light project-title'>Projects</p>
-                <figure class="snip1256">
-                    <img src={Space} alt="solar system" id='card-img'/>
-                    <figcaption>
-                        <h3>Space Odyssey</h3>
-                        <p>A 3D based Solar System, full stack project that includes information on the planets when you select one. </p>
-                        <a href='https://stormy-sands-64982.herokuapp.com/' class="read-more">Demo</a>
-                        <a href='https://github.com/Proper-Stevo/SpaceInvaders' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-                <figure class="snip1256">
-                    <img src={Resume} alt="resume" id='card-img'/>
-                    <figcaption>
-                        <h3>Resume Creator</h3>
-                        <p>A React Resume Creator, a simple method to create a resume by answering some questions, fun and interactive. Choose from 4 templates.</p>
-                        <a href='https://fierce-ravine-29010.herokuapp.com/' class="read-more">Demo</a>
-                        <a href='https://github.com/cindyung56/resume-creator' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-                <figure class="snip1256">
-                    <img src={Pines} alt="National Park Badge" id='card-img'/>
-                    <figcaption>
-                        <h3>Ponderosa Pines</h3>
-                        <p>A Simple National Park Finder that gives information once you enter a park, give it a try!</p>
-                        <a href='https://proper-stevo.github.io/ThePonderosaPines/' class="read-more">Demo</a>
-                        <a href='https://github.com/Proper-Stevo/ThePonderosaPines' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-                    <br />
-                <figure class="snip1256">
-                    <img src={Bank} alt="Mobile Bank App" id='card-img'/>
-                    <figcaption>
-                        <h3>Bank Mobile Responsive</h3>
-                        <p>This is a Front-End Mentor Project that showcases great mobile responsive page.</p>
-                        <a href='https://easybankdemosb.netlify.app' class="read-more">Demo</a>
-                        <a href='https://github.com/Proper-Stevo/EasyBank' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-                <figure class="snip1256">
-                    <img src={Store} alt="store" id='card-img'/>
-                    <figcaption>
-                        <h3>Redux Store</h3>
-                        <p>A Redux Store brand that was used to demonstrate the ability to use count and create store.</p>
-                        <a href='https://floating-reef-85992.herokuapp.com/' class="read-more">Demo</a>
-                        <a href='https://github.com/Proper-Stevo/Store-Redux' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-                <figure class="snip1256">
-                    <img src={Starwars} alt="Darth Vader" id='card-img'/>
-                    <figcaption>
-                        <h3>Star Wars API</h3>
-                        <p>A Star Wars API that gives information on planets, characters, ships and more!</p>
-                        <a href='https://sb-starwarsapi.netlify.app' class="read-more">Demo</a>
-                        <a href='https://github.com/Proper-Stevo/Star-Wars-API' class="read-more">GitHub</a>
-                    </figcaption>
-                </figure>
-            </span></div>
-    </Parallax>
-);
+function Projects() {
+
+    const { projectsInfo } = projectsData
+    //     // render project image
+    function DisplayProject(project) {
+
+        const eachProject = Object.values(project);
+        const thisProject = eachProject[0];
+
+        switch (thisProject) {
+            case "Ponderosa Pines":
+                return <Card.Img className="project-img" src={Pines} alt="National Park Project" />;
+            case "Orbital Odyssey":
+                return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" />;
+            case "Resume Creator":
+                return <Card.Img className="project-img" src={Resume} alt="Resume Creator Project" />;
+            case "Redux Store":
+                return <Card.Img className="project-img" src={Store} alt="Redux Project" />;
+            case "Easy Bank":
+                return <Card.Img className="project-img" src={Bank} alt="Easy Bank Project" />;
+            case "Star Wars API":
+                return <Card.Img className="project-img" src={Starwars} alt="Star wars Project" />;
+        }
+    }
+    return (
+        <Parallax className='image2' bgImage={mountain} strength={800}>
+            <div className='contentProjects' id='work'>
+                <span>
+                    <ul>
+                        {projectsInfo.map((project, index) => {
+                            return (
+                                <li className="booking-card">
+                                    <DisplayProject project={project.title} />
+                                    <div className="book-container">
+                                        <div className="content">
+                                            <button className="btn">{project.title}</button>
+                                        </div>
+                                    </div>
+                                    <div className="informations-container">
+                                        <h2 className="title">{project.title}</h2>
+                                        <p className="sub-title">{project.description}</p>
+                                        <div className="more-information">
+                                            <div className="info-and-date-container">
+                                                <div className="box info">
+                                                    <a href={project.demo} >
+                                                        <img src={urlBadge} />
+                                                        <p>Website</p>
+                                                    </a>
+                                                </div>
+                                                <div className="box date">
+                                                    <a href={project.github}>
+                                                        <img src={gbBadge} />
+                                                        <p>Github</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <p className="disclaimer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eveniet perferendis culpa. Expedita architecto nesciunt, rem distinctio</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            )
+                        })};
+                    </ul>
+                </span>
+            </div>
+        </Parallax>
+    );
+};
 
 export default Projects
+
+
 
