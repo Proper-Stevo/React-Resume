@@ -79,7 +79,7 @@ ul{
     &::before{
       content: '';
       position: absolute;
-      top: 0;
+      top: 200px;
       left: 0;
       right: 0;
       bottom: 0;
@@ -90,7 +90,7 @@ ul{
     }
     
     .book-container {
-      height: 100px;
+      height: 500px;
       .content {
         position: relative;
         opacity: 0;

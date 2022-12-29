@@ -12,6 +12,7 @@ import projectsData from '../data/projectsData.json';
 import Card from 'react-bootstrap/Card';
 import urlBadge from '../img/urlBadge.png';
 import gbBadge from '../img/gbBadge.png';
+import spaceShot from '../img/mp2.png';
 
 
 function Projects() {
@@ -27,7 +28,7 @@ function Projects() {
             case "Ponderosa Pines":
                 return <Card.Img className="project-img" src={Pines} alt="National Park Project" />;
             case "Orbital Odyssey":
-                return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" />;
+                return <Card.Img className="project-img" src={spaceShot} alt="Orbital Odyssey Project" />;
             case "Resume Creator":
                 return <Card.Img className="project-img" src={Resume} alt="Resume Creator Project" />;
             case "Redux Store":
@@ -41,7 +42,7 @@ function Projects() {
     return (
         <Parallax className='image2' bgImage={mountain} strength={800}>
             <div className='contentProjects' id='work'>
-                <span>
+                <div>
                     <ul>
                         {projectsInfo.map((project, index) => {
                             return (
@@ -77,7 +78,7 @@ function Projects() {
                             )
                         })};
                     </ul>
-                </span>
+                </div>
             </div>
         </Parallax>
     );
