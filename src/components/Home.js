@@ -16,7 +16,7 @@ const Home = () => (
             <span className='img-txt'><h1>Welcome To Steven's Page!</h1>
                 <hr /> A Los Angeles based Full Stack Developer. <br />
                 <br />
-                <a className='btn btn-secondary mx-4' href="https://drive.google.com/uc?export=download&id=1Q2JbDm3OnQpgg0HQWasKDq5ZXni5mDfA">
+                <a className='btn btn-secondary mx-4' href="https://drive.google.com/uc?export=download&id=1D6DJfeiCNHx0aC58m8LikIqpoOreo1Aj">
                     Resume    
                 </a>
                 <a className='btn btn-secondary mx-4' href="#contact">

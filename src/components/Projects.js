@@ -6,7 +6,6 @@ import Resume from '../img/resumeSS.png';
 import Pines from '../img/NPFSS.png';
 import Bank from '../img/bankSS.png';
 import Store from '../img/reduxSS.png';
-import '../styling/project.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projectsData from '../data/projectsData.json';
 import Card from 'react-bootstrap/Card';
@@ -28,7 +27,7 @@ function Projects() {
             case "Ponderosa Pines":
                 return <Card.Img className="project-img" src={Pines} alt="National Park Project" />;
             case "Orbital Odyssey":
-                return <Card.Img className="project-img" src={spaceShot} alt="Orbital Odyssey Project" />;
+                return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" />;
             case "Resume Creator":
                 return <Card.Img className="project-img" src={Resume} alt="Resume Creator Project" />;
             case "Redux Store":
@@ -43,48 +42,35 @@ function Projects() {
         <Parallax className='image2' bgImage={mountain} strength={800}>
             <div className='contentProjects' id='work'>
                 <div>
-                    <ul>
-                        {projectsInfo.map((project, index) => {
-                            return (
-                                <li className="booking-card">
-                                    <DisplayProject project={project.title} />
-                                    <div className="book-container">
-                                        <div className="content">
-                                            <button className="btn">{project.title}</button>
-                                        </div>
-                                    </div>
-                                    <div className="informations-container">
-                                        <h2 className="title">{project.title}</h2>
-                                        <p className="sub-title">{project.description}</p>
-                                        <div className="more-information">
-                                            <div className="info-and-date-container">
-                                                <div className="box info">
-                                                    <a href={project.demo} >
-                                                        <img src={urlBadge} />
-                                                        <p>Website</p>
-                                                    </a>
-                                                </div>
-                                                <div className="box date">
-                                                    <a href={project.github}>
-                                                        <img src={gbBadge} />
-                                                        <p>Github</p>
-                                                    </a>
-                                                </div>
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" id="theCards">
+                    {projectsInfo.map((project, index) => {
+                        return (
+                            <div className="col">
+                                <div className="card h-100" id="theCards">
+                                <DisplayProject project={project.title} />
+                                        <div className="card-body text-center">
+                                            <h5 className="card-title">{project.title}</h5>
+                                            <p className="card-text">{project.description}</p>
+                                            <div className='d-flex text-center justify-content-center'>
+                                            < a href={project.demo}>
+                                                <img src={urlBadge} />
+                                                <p>Website</p>
+                                            </a>
+                                            < a href={project.github}>
+                                                <img src={gbBadge} />
+                                                <p>github</p>
+                                            </a>
                                             </div>
-                                            <p className="disclaimer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi eveniet perferendis culpa. Expedita architecto nesciunt, rem distinctio</p>
                                         </div>
-                                    </div>
-                                </li>
-                            )
-                        })};
-                    </ul>
-                </div>
-            </div>
-        </Parallax>
+                                </div>
+                            </div>
+                        )
+                    })}
+                     </div>
+                </div >
+            </div >
+        </Parallax >
     );
 };
 
 export default Projects
-
-
-

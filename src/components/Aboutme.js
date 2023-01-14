@@ -18,7 +18,7 @@ function About() {
               <br />
                You can also download my Resume using this button. 
                < br />
-               <a href="https://drive.google.com/uc?export=download&id=1Q2JbDm3OnQpgg0HQWasKDq5ZXni5mDfA" className="btn btn-primary btn-sm">Download</a>
+               <a href="https://drive.google.com/uc?export=download&id=1D6DJfeiCNHx0aC58m8LikIqpoOreo1Aj" className="btn btn-primary btn-sm">Download</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
