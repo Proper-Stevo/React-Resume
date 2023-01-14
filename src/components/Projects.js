@@ -52,11 +52,12 @@ function Projects() {
                                             <h5 className="card-title">{project.title}</h5>
                                             <p className="card-text">{project.description}</p>
                                             <div className='d-flex text-center justify-content-center'>
-                                            < a href={project.demo}>
+                                            < a href={project.demo} className='underline'>
                                                 <img src={urlBadge} />
                                                 <p>Website</p>
                                             </a>
-                                            < a href={project.github}>
+                                            
+                                            < a href={project.github} className='underline'>
                                                 <img src={gbBadge} />
                                                 <p>github</p>
                                             </a>
