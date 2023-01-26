@@ -8,8 +8,7 @@ This porfolio was created using React.js and it showcases my abilities as a deve
 
 ## Usage
 
-![alt-text](../React-Resume/src/img/portfolioSS.png) 
-![alt-text](../React-Resume/src/img/secondSS.png)
+![alt-text](./src/img/portfolioSS.png) 
 
 ## Credits
 
