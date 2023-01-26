@@ -29,7 +29,7 @@ function Projects() {
             case "Orbital Odyssey":
                 return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" />;
             case "Resume Creator":
-                return <Card.Img className="project-img" src={Resume} alt="Resume Creator Project" />;
+                return <Card.Img className="project-img" src={Resume} alt="Pokemon Data Types" />;
             case "Redux Store":
                 return <Card.Img className="project-img" src={Store} alt="Redux Project" />;
             case "Easy Bank":

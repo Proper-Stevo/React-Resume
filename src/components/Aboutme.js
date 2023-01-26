@@ -18,7 +18,7 @@ function About() {
               <br />
                You can also download my Resume using this button. 
                < br />
-               <a href="https://drive.google.com/uc?export=download&id=1D6DJfeiCNHx0aC58m8LikIqpoOreo1Aj" className="btn btn-primary btn-sm">Download</a>
+               <a href="https://drive.google.com/uc?export=download&id=1eF8eNLyDMHqu2bGhfzg_hltIiFNy-BxR" className="btn btn-primary btn-sm">Download</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
@@ -32,7 +32,7 @@ function About() {
              
                 Los Angeles, CA <i className="about-me-icons fa-solid fa-map-pin"></i>
                 <br />
-                30 Years Old <i class="about-me-icons fa-regular fa-calendar"></i>
+                31 Years Old <i class="about-me-icons fa-regular fa-calendar"></i>
               </div>
               <div className="sectionAboutMe2 col-5">
                 UCLA <i class="uclaSection fa-solid fa-graduation-cap"></i>
