@@ -15,12 +15,12 @@
 
 .image2 {
   position: relative;
-  height: 300vh;
+  height: 280vh;
 }
 
 .image3 {
   position: relative;
-  height: 135vh;
+  height: 200vh;
 }
 
 /* Content in the HOME section of the page */
@@ -254,16 +254,27 @@ h3 {
 }
 
 @media only screen and (min-width:200px) and (max-width:767px) {
-  .image2 {
+  /* .image2 {
     height: 360vh;
     padding-top: 650px;
-    background-image: url('../img/woodMobile.jpg');
+    background-image: url('../img/newBG2.jpg');
     background-size: 200vh;
-  }
+  } */
   #work {
     width: 33vh;
+    top: 600px;
     position: relative;
     left: 32px;
+  }
+  .image2 {
+    background-attachment: scroll;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 350vh;
+  }
+  .image {
+    background-image: url("../img/newBG3.jpg");
+    background-size: 100%;
   }
 }
 /*  NAV BAR SECTION*/

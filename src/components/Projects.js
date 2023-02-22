@@ -12,6 +12,7 @@ import Card from 'react-bootstrap/Card';
 import urlBadge from '../img/urlBadge.png';
 import gbBadge from '../img/gbBadge.png';
 import pokeSearch from '../img/pokemonSS.png';
+import secondBG from "../img/newBG2.jpg";
 
 function Projects() {
 
@@ -38,7 +39,7 @@ function Projects() {
         }
     }
     return (
-        <Parallax className='image2' bgImage={mountain} strength={800}>
+        <Parallax className='image2' bgImage={secondBG} strength={800}>
             <div className='contentProjects' id='work'>
                 <div>
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" id="theCards">

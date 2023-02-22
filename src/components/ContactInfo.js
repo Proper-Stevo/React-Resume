@@ -1,5 +1,6 @@
 import { Parallax } from 'react-parallax';
 import firecamp from '../img/backgroundThree 2.jpg';
+import newBG from "../img/newBG.jpg"
 import React, { useState } from 'react';
 
 export default function ContactInfo() {
@@ -50,7 +51,7 @@ export default function ContactInfo() {
 
   return (
 
-    <Parallax className='image3' bgImage={firecamp} strength={800}>
+    <Parallax className='image3' bgImage={newBG} strength={800}>
       <div className="contact-content" id="contact">
         <div className='contact-display'>Contact Me Or Schedule A Meeting!</div>
         <p>Second Button Goes Directly Towards My Calendy Schedule!</p>

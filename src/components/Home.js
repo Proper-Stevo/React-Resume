@@ -2,11 +2,12 @@ import { Parallax } from 'react-parallax';
 import space from '../img/backgroundPort.jpg';
 import NewNew from '../img/newSpacePhoto.jpg'
 import Nav from 'react-bootstrap/Nav';
+import BG1 from "../img/newBG3.jpg";
 
 
 
 const Home = () => (
-    <Parallax className='image' bgImage={NewNew} strength={800}>
+    <Parallax className='image' bgImage={BG1} strength={800}>
          <Nav defaultActiveKey="/home" className="flex-column side-nav"  id="navBar">
             <Nav.Link href="#home" id="navHome">Home <i class="fa-solid fa-house-chimney fa-2xl"></i></Nav.Link>
             <Nav.Link href="#work" id="navProjects">Projects <i class="fa-solid fa-code-branch fa-2xl"></i></Nav.Link>
