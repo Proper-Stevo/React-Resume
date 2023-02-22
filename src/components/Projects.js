@@ -59,7 +59,7 @@ function Projects() {
                                             
                                             < a href={project.github} className='underline'>
                                                 <img src={gbBadge} alt="github tags"/>
-                                                <p>github</p>
+                                                <p>Github</p>
                                             </a>
                                             </div>
                                         </div>
