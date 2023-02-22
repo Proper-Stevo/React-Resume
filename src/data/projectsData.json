@@ -26,7 +26,7 @@
         },
         {
             "title": "Pokemon Search",
-            "github": "https://github.com/Proper-Stevo/Store-Redux",
+            "github": "https://github.com/mladame/pokemon-type-index",
             "demo": "https://pokemon-stats.herokuapp.com/",
             "description": "A collabrotive app created for the love of showing pokemon, pokemon stats, and its shiny form. React based."
         }
