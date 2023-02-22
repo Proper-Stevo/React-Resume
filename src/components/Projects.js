@@ -11,8 +11,7 @@ import projectsData from '../data/projectsData.json';
 import Card from 'react-bootstrap/Card';
 import urlBadge from '../img/urlBadge.png';
 import gbBadge from '../img/gbBadge.png';
-import spaceShot from '../img/mp2.png';
-
+import pokeSearch from '../img/pokemonSS.png';
 
 function Projects() {
 
@@ -25,17 +24,17 @@ function Projects() {
 
         switch (thisProject) {
             case "Ponderosa Pines":
-                return <Card.Img className="project-img" src={Pines} alt="National Park Project" />;
+                return <Card.Img className="project-img" src={Pines} alt="National Park Project" key="pines"/>;
             case "Orbital Odyssey":
-                return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" />;
+                return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" key="space"/>;
             case "Resume Creator":
-                return <Card.Img className="project-img" src={Resume} alt="Pokemon Data Types" />;
-            case "Redux Store":
-                return <Card.Img className="project-img" src={Store} alt="Redux Project" />;
+                return <Card.Img className="project-img" src={Resume} alt="Pokemon Data Types" key="resume"/>;
+            case "Pokemon Search":
+                return <Card.Img className="project-img" src={pokeSearch} alt="Pokemon Project" key="pokemon"/>;
             case "Easy Bank":
-                return <Card.Img className="project-img" src={Bank} alt="Easy Bank Project" />;
+                return <Card.Img className="project-img" src={Bank} alt="Easy Bank Project" key="bank"/>;
             case "Star Wars API":
-                return <Card.Img className="project-img" src={Starwars} alt="Star wars Project" />;
+                return <Card.Img className="project-img" src={Starwars} alt="Star wars Project" key="wars" />;
         }
     }
     return (
@@ -53,12 +52,12 @@ function Projects() {
                                             <p className="card-text">{project.description}</p>
                                             <div className='d-flex text-center justify-content-center'>
                                             < a href={project.demo} className='underline'>
-                                                <img src={urlBadge} />
+                                                <img src={urlBadge} alt="names"/>
                                                 <p>Website</p>
                                             </a>
                                             
                                             < a href={project.github} className='underline'>
-                                                <img src={gbBadge} />
+                                                <img src={gbBadge} alt="github tags"/>
                                                 <p>github</p>
                                             </a>
                                             </div>

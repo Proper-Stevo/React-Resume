@@ -25,10 +25,10 @@
             "description": "This is a Front-End Mentor Project that showcases great mobile responsive page."
         },
         {
-            "title": "Redux Store",
+            "title": "Pokemon Search",
             "github": "https://github.com/Proper-Stevo/Store-Redux",
-            "demo": "https://floating-reef-85992.herokuapp.com/",
-            "description": "A Redux Store brand that was used to demonstrate the ability to use count and create store."
+            "demo": "https://pokemon-stats.herokuapp.com/",
+            "description": "A collabrotive app created for the love of showing pokemon, pokemon stats, and its shiny form. React based."
         }
         ,
         {

@@ -260,6 +260,11 @@ h3 {
     background-image: url('../img/woodMobile.jpg');
     background-size: 200vh;
   }
+  #work {
+    width: 33vh;
+    position: relative;
+    left: 32px;
+  }
 }
 /*  NAV BAR SECTION*/
 #navHome {
