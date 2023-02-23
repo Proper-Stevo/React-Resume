@@ -277,6 +277,12 @@ h3 {
     background-size: 100%;
   }
 }
+
+@media only screen and (min-width:771px) and (max-width:1257px) { 
+.image2 {
+  height: 190vh;
+}
+}
 /*  NAV BAR SECTION*/
 #navHome {
   margin-left: -60px;
