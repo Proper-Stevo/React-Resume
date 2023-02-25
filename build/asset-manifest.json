@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Resume/static/css/main.3638c64e.css",
+    "main.js": "/React-Resume/static/js/main.cb7577a2.js",
+    "static/media/newBG2.jpg": "/React-Resume/static/media/newBG2.d0c6f3e49b3eafa07e0b.jpg",
+    "static/media/newBG.jpg": "/React-Resume/static/media/newBG.b17404dd4fb1f368597c.jpg",
+    "static/media/NPFSS.png": "/React-Resume/static/media/NPFSS.1daac3971bcd57ab1158.png",
+    "static/media/newBG3.jpg": "/React-Resume/static/media/newBG3.b69ed6939b0c05ea76e7.jpg",
+    "static/media/pokemonSS.png": "/React-Resume/static/media/pokemonSS.813b5719ee6e7f02a90e.png",
+    "static/media/spaceSS.png": "/React-Resume/static/media/spaceSS.9b3a7f361275c4423463.png",
+    "static/media/bankSS.png": "/React-Resume/static/media/bankSS.b2f53a1b80135e7fa4f2.png",
+    "static/media/starwarsSS.png": "/React-Resume/static/media/starwarsSS.694fa1ecab49a0e036d9.png",
+    "static/media/resumeSS.png": "/React-Resume/static/media/resumeSS.eaabfc960a6e7ae57fa0.png",
+    "static/media/selfie.jpeg": "/React-Resume/static/media/selfie.5ea4b9090482b0ffa7a1.jpeg",
+    "static/media/icons8-react-144.png": "/React-Resume/static/media/icons8-react-144.0258a39c0da07bd24e39.png",
+    "static/media/jquery.png": "/React-Resume/static/media/jquery.0ce0480ce3ffc079b4c1.png",
+    "static/media/icons8-my-sql-144.png": "/React-Resume/static/media/icons8-my-sql-144.503cfdd887631c88e6bc.png",
+    "index.html": "/React-Resume/index.html",
+    "main.3638c64e.css.map": "/React-Resume/static/css/main.3638c64e.css.map",
+    "main.cb7577a2.js.map": "/React-Resume/static/js/main.cb7577a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3638c64e.css",
+    "static/js/main.cb7577a2.js"
+  ]
+}
