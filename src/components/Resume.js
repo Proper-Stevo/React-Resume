@@ -33,10 +33,10 @@ function Resume() {
       <img className="col-2 col-md-1 icon" src={reactIcon} alt="badge"/>
       <img className="col-2 col-md-1 icon" src={reduxIcon} alt="badge"/>
       <img className="col-2 col-md-1 icon" src={sassIcon} alt="badge"/>
-      <img className='col-2 col-md-1 icon' src={babel} alt="babel" />
+      {/* <img className='col-2 col-md-1 icon' src={babel} alt="babel" />
       <img className='col-2 col-md-1 icon' src={magento} alt="magento" />
       <img className='col-2 col-md-1 icon' src={tailwind} alt="tailwind" />
-      <img className='col-2 col-md-1 icon' src={wordpress} alt="wordpress" />
+      <img className='col-2 col-md-1 icon' src={wordpress} alt="wordpress" /> */}
     </div>
   );
 }
