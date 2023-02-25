@@ -11,6 +11,7 @@ const Home = () => (
             <Nav.Link href="#work" id="navProjects">Projects <i class="fa-solid fa-code-branch fa-2xl"></i></Nav.Link>
             <Nav.Link href="#resume" id="navResume">Resume <i class="fa-regular fa-file-lines fa-2xl"></i></Nav.Link>
             <Nav.Link href="#contact" id="navContact">Contact Me <i class="fa-solid fa-paper-plane fa-2xl"></i></Nav.Link>
+            
         </Nav>
         <div className='contentOne text-center' id='home'>
             <span className='img-txt'><h1>Welcome To Steven's Page!</h1>
