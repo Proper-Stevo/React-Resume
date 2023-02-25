@@ -11,6 +11,10 @@ import nodeIcon from '../img/icons8-node-js-144.png';
 import reactIcon from '../img/icons8-react-144.png';
 import reduxIcon from '../img/redux.png';
 import sassIcon from '../img/icons8-sass-144.png';
+import babel from "../img/icons8-babel-144.png";
+import magento from "../img/icons8-magento-144.png";
+import tailwind from "../img/icons8-tailwindcss-144.png";
+import wordpress from "../img/icons8-wordpress-144.png";
 
 function Resume() {
   return (
@@ -29,6 +33,10 @@ function Resume() {
       <img className="col-2 col-md-1 icon" src={reactIcon} alt="badge"/>
       <img className="col-2 col-md-1 icon" src={reduxIcon} alt="badge"/>
       <img className="col-2 col-md-1 icon" src={sassIcon} alt="badge"/>
+      <img className='col-2 col-md-1 icon' src={babel} alt="babel" />
+      <img className='col-2 col-md-1 icon' src={magento} alt="magento" />
+      <img className='col-2 col-md-1 icon' src={tailwind} alt="tailwind" />
+      <img className='col-2 col-md-1 icon' src={wordpress} alt="wordpress" />
     </div>
   );
 }
