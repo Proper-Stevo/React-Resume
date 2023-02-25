@@ -1,5 +1,4 @@
 import { Parallax } from 'react-parallax';
-import firecamp from '../img/backgroundThree 2.jpg';
 import newBG from "../img/newBG.jpg"
 import React, { useState } from 'react';
 

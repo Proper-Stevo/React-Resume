@@ -1,11 +1,9 @@
 import { Parallax } from 'react-parallax';
-import mountain from '../img/woods.jpg';
 import Starwars from '../img/starwarsSS.png'
 import Space from '../img/spaceSS.png';
 import Resume from '../img/resumeSS.png';
 import Pines from '../img/NPFSS.png';
 import Bank from '../img/bankSS.png';
-import Store from '../img/reduxSS.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projectsData from '../data/projectsData.json';
 import Card from 'react-bootstrap/Card';

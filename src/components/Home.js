@@ -1,6 +1,4 @@
 import { Parallax } from 'react-parallax';
-import space from '../img/backgroundPort.jpg';
-import NewNew from '../img/newSpacePhoto.jpg'
 import Nav from 'react-bootstrap/Nav';
 import BG1 from "../img/newBG3.jpg";
 
