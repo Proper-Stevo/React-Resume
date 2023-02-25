@@ -277,7 +277,7 @@ h3 {
     background-size: 100%;
   }
 }
-
+/* fix from 1257 to 1448 px becuase it shows incorrectly! */
 @media only screen and (min-width:771px) and (max-width:1257px) { 
 .image2 {
   height: 190vh;
