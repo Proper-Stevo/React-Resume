@@ -4,7 +4,7 @@ import myphoto from '../img/selfie.jpeg';
 
 function About() {
   return (
-    <div className="text-box">
+    <div className="text-box" id="aboutMe">
       <h3>About Steven Barrios</h3>
       <div className="row">
         <img src={myphoto} className="col-12 col-md-3" id="selfie" alt="selfie"/>
@@ -18,7 +18,7 @@ function About() {
               <br />
                You can also download my Resume using this button. 
                < br />
-               <a href="https://drive.google.com/uc?export=download&id=1JrhtyO84DgJlitbMiBpPGF18DjSzJVDM" className="btn btn-primary btn-sm">Download</a>
+               <a href="https://drive.google.com/uc?export=download&id=1BY1CnQnuUw6hYIWYLlLjxRRUrHQBJw9X" className="btn btn-primary btn-sm">Download</a>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
