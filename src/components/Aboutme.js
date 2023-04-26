@@ -32,16 +32,16 @@ function About() {
              
                 Los Angeles, CA <i className="about-me-icons fa-solid fa-map-pin"></i>
                 <br />
-                31 Years Old <i class="about-me-icons fa-regular fa-calendar"></i>
+                31 Years Old <i className="about-me-icons fa-regular fa-calendar"></i>
               </div>
               <div className="sectionAboutMe2 col-5">
-                UCLA <i class="uclaSection fa-solid fa-graduation-cap"></i>
+                UCLA <i className="uclaSection fa-solid fa-graduation-cap"></i>
                 <br />
-                My Interest <i class="interestSection fa-solid fa-mug-saucer"></i>
-                <i class="about-me-icons fa-solid fa-person-hiking"></i>
-                <i class="about-me-icons fa-solid fa-futbol"></i>
-                <i class="about-me-icons fa-solid fa-laptop-code"></i>
-                <i class="about-me-icons fa-solid fa-plane-departure"></i>
+                My Interest <i className="interestSection fa-solid fa-mug-saucer"></i>
+                <i className="about-me-icons fa-solid fa-person-hiking"></i>
+                <i className="about-me-icons fa-solid fa-futbol"></i>
+                <i className="about-me-icons fa-solid fa-laptop-code"></i>
+                <i className="about-me-icons fa-solid fa-plane-departure"></i>
               </div>
               </div>
             </Accordion.Body>

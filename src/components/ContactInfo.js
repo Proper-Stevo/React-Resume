@@ -65,7 +65,7 @@ export default function ContactInfo() {
               onChange={handleInputChange}
               type="text"
               placeholder="Name"
-              class="form-control"
+              className="form-control"
             />
           </div>
 
@@ -79,7 +79,7 @@ export default function ContactInfo() {
               onChange={handleInputChange}
               type="email"
               placeholder="Email"
-              class="form-control"
+              className="form-control"
             />
           </div>
           <div className="form-group">
@@ -92,14 +92,14 @@ export default function ContactInfo() {
               onChange={handleInputChange}
               type="text"
               placeholder="Message"
-              class="form-control"
+              className="form-control"
               rows="3"
             />
           </div>
           <button
             type="submit"
             onClick={handleFormSubmit}
-            class="btn mt-3"
+            className="btn mt-3"
             id='form-btn'
           >
             Submit
