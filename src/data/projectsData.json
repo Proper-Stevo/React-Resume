@@ -1,41 +1,22 @@
 {
     "projectsInfo": [
         {
+            "title": "South Central With Love",
+            "github": "https://github.com/Proper-Stevo/RestaurantReserve",
+            "demo": "https://southcentralwithlove.vercel.app/",
+            "description": "LA Based restauraunt form with NextJs. React based that includes a serverless API. Try making a reservation today."
+        },
+        {
             "title": "Orbital Odyssey",
             "github": "https://github.com/Proper-Stevo/SpaceInvaders",
             "demo": "https://stormy-sands-64982.herokuapp.com/",
             "description": "A 3D based Solar System, full stack project that includes information on the planets when you select one."
         },
         {
-            "title": "Resume Creator",
-            "github": "https://github.com/cindyung56/resume-creator",
-            "demo": "https://fierce-ravine-29010.herokuapp.com/",
-            "description": "A React Resume Creator, a simple method to create a resume by answering some questions, fun and interactive. Choose from 4 templates."
-        },
-        {
-            "title": "Ponderosa Pines",
-            "github": "https://github.com/Proper-Stevo/ThePonderosaPines",
-            "demo": "https://proper-stevo.github.io/ThePonderosaPines/",
-            "description": "A Simple National Park Finder that gives information once you enter a park, give it a try!"
-        },
-        {
-            "title": "Easy Bank",
-            "github": "https://github.com/Proper-Stevo/EasyBank",
-            "demo": "https://easybankdemosb.netlify.app",
-            "description": "This is a Front-End Mentor Project that showcases great mobile responsive page."
-        },
-        {
             "title": "Pokemon Search",
             "github": "https://github.com/mladame/pokemon-type-index",
             "demo": "https://pokemon-stats.herokuapp.com/",
             "description": "A collabrotive app created for the love of showing pokemon, pokemon stats, and its shiny form. React based."
-        }
-        ,
-        {
-            "title": "Star Wars API",
-            "github": "https://github.com/Proper-Stevo/Star-Wars-API",
-            "demo": "https://sb-starwarsapi.netlify.app",
-            "description": "A Star Wars API that gives information on planets, characters, ships and more!"
         }
     ]
 }

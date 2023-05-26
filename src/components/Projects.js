@@ -1,9 +1,5 @@
 import { Parallax } from 'react-parallax';
-import Starwars from '../img/starwarsSS.png'
 import Space from '../img/spaceSS.png';
-import Resume from '../img/resumeSS.png';
-import Pines from '../img/NPFSS.png';
-import Bank from '../img/bankSS.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import projectsData from '../data/projectsData.json';
 import Card from 'react-bootstrap/Card';
@@ -11,6 +7,7 @@ import urlBadge from '../img/urlBadge.png';
 import gbBadge from '../img/gbBadge.png';
 import pokeSearch from '../img/pokemonSS.png';
 import secondBG from "../img/newBG2.jpg";
+import resFront from "../img/resSS.png"
 
 function Projects() {
 
@@ -22,25 +19,19 @@ function Projects() {
         const thisProject = eachProject[0];
 
         switch (thisProject) {
-            case "Ponderosa Pines":
-                return <Card.Img className="project-img" src={Pines} alt="National Park Project" key="pines"/>;
+            case "South Central With Love":
+                return <Card.Img className="project-img" src={resFront} alt="National Park Project" key="pines"/>;
             case "Orbital Odyssey":
                 return <Card.Img className="project-img" src={Space} alt="Orbital Odyssey Project" key="space"/>;
-            case "Resume Creator":
-                return <Card.Img className="project-img" src={Resume} alt="Pokemon Data Types" key="resume"/>;
             case "Pokemon Search":
                 return <Card.Img className="project-img" src={pokeSearch} alt="Pokemon Project" key="pokemon"/>;
-            case "Easy Bank":
-                return <Card.Img className="project-img" src={Bank} alt="Easy Bank Project" key="bank"/>;
-            case "Star Wars API":
-                return <Card.Img className="project-img" src={Starwars} alt="Star wars Project" key="wars" />;
         }
     }
     return (
         <Parallax className='image2' bgImage={secondBG} strength={800}>
             <div className='contentProjects' id='work'>
                 <div>
-                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" id="theCards">
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="theCards">
                     {projectsInfo.map((project, index) => {
                         return (
                             <div className="col" key={index}>
